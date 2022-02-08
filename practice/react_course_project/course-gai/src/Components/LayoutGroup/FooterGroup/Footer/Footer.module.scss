@@ -1,0 +1,34 @@
+.FooterContainer {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  //max-width: 3000px;
+  border-top: 2px solid forestgreen;
+}
+.Logo {
+  width: 5vw;
+}
+.FooterLine1 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  //max-width: 1920px;
+}
+.FooterLine2 {
+  display: flex;
+  font-style: italic;
+  font-size: 14px;
+  justify-content: center;
+}
+.SocialNetworkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6vw;
+}
+.ContactContainer {
+
+}

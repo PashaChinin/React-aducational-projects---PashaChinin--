@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.0.1",
+    "react-router-dom": "^6.0.1",
+    "rebass": "^4.0.7",
+    "redux-thunk": "^2.4.0",
+    "sass-loader": "^12.3.0"
+  }
+}

@@ -1,0 +1,44 @@
+.ButtonContainer {
+  width: 25vw;
+  max-width: 35vw;
+  height: 20vw;
+  max-height: 30vw;
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.ButtonName {
+  position: absolute;
+  top: 5px;
+  font-size: 40px;
+  color: #007fb9;
+
+}
+.ImageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 250px;
+  overflow: hidden;
+  border-top: 2px solid black;
+}
+.ImageContainer img {
+  filter: invert(34%) sepia(57%) saturate(1651%) hue-rotate(170deg) brightness(96%) contrast(101%);
+  width: 200px;
+  height: 200px;
+}
+.ButtonContainer:hover {
+  box-shadow: 1px 1px 15px lightskyblue;
+  cursor: pointer;
+}
+.ButtonContainer:active {
+  box-shadow: inset 0 0 20px lightskyblue;
+  cursor: pointer;
+}

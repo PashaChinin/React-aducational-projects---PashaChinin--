@@ -1,0 +1,22 @@
+.SocialNetworkButton {
+  display: inline-block;
+  z-index: 1;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  filter: grayscale(100%);
+  background-color: transparent;
+
+  //overflow: hidden;
+}
+.facebook {
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+}
+.instagram {
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+}
+.facebook:hover {filter: none;}
+.instagram:hover {filter: none;}
+

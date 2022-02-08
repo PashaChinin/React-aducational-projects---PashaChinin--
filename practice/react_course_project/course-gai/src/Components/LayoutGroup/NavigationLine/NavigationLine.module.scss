@@ -1,0 +1,19 @@
+.List {
+  list-style: none;
+}
+.NavBar li{
+
+ display: inline;
+
+  }
+.NavBar a {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.NavBarContainer {
+    display: flex;
+    justify-content: center;
+  border-bottom: 2px solid forestgreen;
+}

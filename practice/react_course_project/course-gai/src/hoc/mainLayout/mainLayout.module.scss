@@ -1,0 +1,26 @@
+.mainLayoutHeaderLine {
+  display: block;
+  width: 99vw;
+  max-width: 100vw;
+  height: 30px;
+  background-color: darkseagreen;
+
+
+}
+.LayoutBody {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+.LayoutHeader {
+
+}
+.MainSection {
+  position: relative;
+  flex-grow: 1;
+
+}
+.LayoutFooter {
+  flex-shrink: 0;
+}

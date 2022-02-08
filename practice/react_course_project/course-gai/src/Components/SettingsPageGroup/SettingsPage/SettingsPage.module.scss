@@ -1,0 +1,27 @@
+.SettingsContainer{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.SelectBlock{
+  border: 1px solid forestgreen;
+  width: 50vw;
+  min-height: 600px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+.ActionBlock {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  min-height: 600px;
+  flex-wrap: wrap;
+  border: 1px solid forestgreen;
+
+
+}
+.ActionBlock div {
+  width: 90%;
+
+}

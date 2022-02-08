@@ -1,0 +1,44 @@
+.NavigationContainer {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  //max-width: 3000px;
+  max-height: 500px;
+}
+.line1 {
+  display: flex;
+  background-color: white;
+}
+.line2 {
+  background-color: aquamarine;
+  max-width: 1920px;
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+
+}
+.ImageContainer {
+  width: 55%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.OptionsContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 45%;
+  background-color: white;
+
+}
+.Logo {
+  width: 200px;
+}
+.OptionsContainer button {
+  height: 30px;
+  width: 70px;
+}
+.line2 a {
+  margin-right: 10px;
+  font-size: 24px;
+}

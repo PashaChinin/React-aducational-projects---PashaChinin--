@@ -1,0 +1,45 @@
+.CardContainerBlock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+.CardContainer {
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  //align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.CardContainerSmall {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.CardContainerExpanded {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.EmployeeImageContainer{
+  padding: 15px;
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+
+}
+.EmployeeImageContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.CardContainerSmallName {
+  font-size: 24px;
+
+}
+.CardContainerSmallInfo {
+
+}

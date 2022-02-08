@@ -1,0 +1,19 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  //max-width: 2500px;
+  height: 30px;
+  background-color: darkseagreen;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+.Buttons {
+display: flex;
+justify-content: space-around;
+margin-right: 50px;
+
+}

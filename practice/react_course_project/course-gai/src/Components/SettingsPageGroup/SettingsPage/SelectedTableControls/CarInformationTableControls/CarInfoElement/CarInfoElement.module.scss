@@ -1,0 +1,18 @@
+.Element {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid forestgreen;
+  margin-top: 9px;
+
+}
+.Element:hover {
+  cursor: pointer;
+}
+.ElementExtended {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid forestgreen;
+  margin-top: 9px;
+  width: 100%;
+}
